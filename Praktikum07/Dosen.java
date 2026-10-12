@@ -6,9 +6,13 @@ public class Dosen extends Pegawai {
     public Dosen() {
         System.out.println("Ini constructor class Dosen");
     }
+    public String getInfo() {
+        return "NIDN       : " + this.nidn + "\n";
+    }
+
      public String getAllInfo() {
         String info = super.getInfo();
-        info += "NIDN       : " + nidn;
+        info += this.getInfo();
 
         return info;
     }

@@ -1,4 +1,4 @@
-package Praktikum07;
+package Praktikum07.Percobaan;
 
 public class InheritanceDemo {
     public static void main(String[] args) {

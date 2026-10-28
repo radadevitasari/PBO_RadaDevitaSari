@@ -7,6 +7,18 @@ public class Lebah extends Hewan {
         super(berat, makanan, habitat);
         this.kasta = kasta;
     }
+
+    @Override
+    public void bergerak() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void bernapas() {
+        // TODO Auto-generated method stub
+        
+    }
 }
     
 

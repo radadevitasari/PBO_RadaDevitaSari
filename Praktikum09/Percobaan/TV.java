@@ -5,7 +5,7 @@ public class TV extends AlatElektronik implements Audible {
     public int volume;
     
      @Override
-    void naikkanVolume() {
+    public void naikkanVolume() {
         volume += 1;
     }
 

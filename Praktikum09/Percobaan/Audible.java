@@ -1,6 +1,6 @@
 package Praktikum09.Percobaan;
 
-public interface Audible {
+interface Audible {
     void naikkanVolume();
     void turunkanVolume();
 }

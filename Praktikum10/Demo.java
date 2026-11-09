@@ -10,6 +10,13 @@ public class Demo {
         TenagaKependidikan tendik2 = new TenagaKependidikan("19650304", "Rika, S.T.", "Tenaga Laboratorium");
 
         ArrayList<Pegawai> daftarPegawai = new ArrayList<Pegawai>();
+
+        daftarPegawai.add(dosen1);
+        daftarPegawai.add(dosen2);
+        daftarPegawai.add(tendik1);
+        daftarPegawai.add(tendik2);
+
+        System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
     }
 }
     

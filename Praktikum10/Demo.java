@@ -9,8 +9,12 @@ public class Demo {
 
         train(dosen1);
         train(tendik1);
+    
+    // Percobaan pertanyaan 5
+        Pegawai pegawai = new Pegawai("19800101", "Budi");
+        Dosen dosen = (Dosen) pegawai;
     }
-
+    
     public static void train(Pegawai pegawai) {
         pegawai.displayInfo();
         System.out.println("Mengenalkan lingkungan kampus");

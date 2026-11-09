@@ -1,7 +1,7 @@
 package Praktikum10;
 
 public class Pegawai {
-     public String nip;
+    public String nip;
     public String nama;
 
     public Pegawai() {

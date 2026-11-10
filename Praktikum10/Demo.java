@@ -7,14 +7,10 @@ public class Demo {
         Dosen dosen1 = new Dosen("19940201", "Widia, S.Kom. M.Kom", "199402");
         TenagaKependidikan tendik1 = new TenagaKependidikan("19750301", "Aida, A.Md.", "Tenaga Administrasi");
 
-        train(dosen1);
+         train(dosen1);
         train(tendik1);
-    
-    // Percobaan pertanyaan 5
-        Pegawai pegawai = new Pegawai("19800101", "Budi");
-        Dosen dosen = (Dosen) pegawai;
     }
-    
+
     public static void train(Pegawai pegawai) {
         pegawai.displayInfo();
         System.out.println("Mengenalkan lingkungan kampus");
